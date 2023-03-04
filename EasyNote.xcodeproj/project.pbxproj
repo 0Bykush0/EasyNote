@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0E3BAA29D0370D00F0A64E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E3BA929D0370D00F0A64E /* ListView.swift */; };
+		BA0E3BAC29D037EB00F0A64E /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E3BAB29D037EB00F0A64E /* ListRowView.swift */; };
+		BA0E3BAE29D2F53E00F0A64E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E3BAD29D2F53E00F0A64E /* AddView.swift */; };
+		BA4E8F3929B379B00014A51F /* EasyNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8F3829B379B00014A51F /* EasyNoteApp.swift */; };
+		BA4E8F3D29B379B10014A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8F3C29B379B10014A51F /* Assets.xcassets */; };
+		BA4E8F4029B379B10014A51F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8F3F29B379B10014A51F /* Preview Assets.xcassets */; };
+		BA518F4829D9D52100248456 /* İtemModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA518F4729D9D52100248456 /* İtemModal.swift */; };
+		BA518F4A29D9E58D00248456 /* ListViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA518F4929D9E58D00248456 /* ListViewModal.swift */; };
+		BAB6C35329E1EFB000AB58E7 /* onBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6C35229E1EFB000AB58E7 /* onBoardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA0E3BA929D0370D00F0A64E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		BA0E3BAB29D037EB00F0A64E /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		BA0E3BAD29D2F53E00F0A64E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BA4E8F3529B379B00014A51F /* EasyNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4E8F3829B379B00014A51F /* EasyNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNoteApp.swift; sourceTree = "<group>"; };
+		BA4E8F3C29B379B10014A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4E8F3F29B379B10014A51F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA518F4729D9D52100248456 /* İtemModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "İtemModal.swift"; sourceTree = "<group>"; };
+		BA518F4929D9E58D00248456 /* ListViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModal.swift; sourceTree = "<group>"; };
+		BAB6C35229E1EFB000AB58E7 /* onBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4E8F3229B379AF0014A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4E8F2C29B379AF0014A51F = {
+			isa = PBXGroup;
+			children = (
+				BA4E8F3729B379B00014A51F /* EasyNote */,
+				BA4E8F3629B379B00014A51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4E8F3629B379B00014A51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8F3529B379B00014A51F /* EasyNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4E8F3729B379B00014A51F /* EasyNote */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8F4729B379DD0014A51F /* ViewModal */,
+				BA4E8F4629B379D20014A51F /* View */,
+				BA4E8F4829B37A020014A51F /* Modal */,
+				BA4E8F3829B379B00014A51F /* EasyNoteApp.swift */,
+				BA4E8F3C29B379B10014A51F /* Assets.xcassets */,
+				BA4E8F3E29B379B10014A51F /* Preview Content */,
+			);
+			path = EasyNote;
+			sourceTree = "<group>";
+		};
+		BA4E8F3E29B379B10014A51F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8F3F29B379B10014A51F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA4E8F4629B379D20014A51F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E3BA929D0370D00F0A64E /* ListView.swift */,
+				BA0E3BAB29D037EB00F0A64E /* ListRowView.swift */,
+				BA0E3BAD29D2F53E00F0A64E /* AddView.swift */,
+				BAB6C35229E1EFB000AB58E7 /* onBoardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA4E8F4729B379DD0014A51F /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				BA518F4929D9E58D00248456 /* ListViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		BA4E8F4829B37A020014A51F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				BA518F4729D9D52100248456 /* İtemModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4E8F3429B379AF0014A51F /* EasyNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4E8F4329B379B10014A51F /* Build configuration list for PBXNativeTarget "EasyNote" */;
+			buildPhases = (
+				BA4E8F3129B379AF0014A51F /* Sources */,
+				BA4E8F3229B379AF0014A51F /* Frameworks */,
+				BA4E8F3329B379AF0014A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNote;
+			productName = EasyNote;
+			productReference = BA4E8F3529B379B00014A51F /* EasyNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4E8F2D29B379AF0014A51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BA4E8F3429B379AF0014A51F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BA4E8F3029B379AF0014A51F /* Build configuration list for PBXProject "EasyNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4E8F2C29B379AF0014A51F;
+			productRefGroup = BA4E8F3629B379B00014A51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4E8F3429B379AF0014A51F /* EasyNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4E8F3329B379AF0014A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E8F4029B379B10014A51F /* Preview Assets.xcassets in Resources */,
+				BA4E8F3D29B379B10014A51F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4E8F3129B379AF0014A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA518F4A29D9E58D00248456 /* ListViewModal.swift in Sources */,
+				BA0E3BAE29D2F53E00F0A64E /* AddView.swift in Sources */,
+				BA518F4829D9D52100248456 /* İtemModal.swift in Sources */,
+				BA4E8F3929B379B00014A51F /* EasyNoteApp.swift in Sources */,
+				BAB6C35329E1EFB000AB58E7 /* onBoardView.swift in Sources */,
+				BA0E3BAA29D0370D00F0A64E /* ListView.swift in Sources */,
+				BA0E3BAC29D037EB00F0A64E /* ListRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA4E8F4129B379B10014A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA4E8F4229B379B10014A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4E8F4429B379B10014A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Q3LV834J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykush.EasyNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA4E8F4529B379B10014A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Q3LV834J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykush.EasyNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4E8F3029B379AF0014A51F /* Build configuration list for PBXProject "EasyNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E8F4129B379B10014A51F /* Debug */,
+				BA4E8F4229B379B10014A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4E8F4329B379B10014A51F /* Build configuration list for PBXNativeTarget "EasyNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E8F4429B379B10014A51F /* Debug */,
+				BA4E8F4529B379B10014A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4E8F2D29B379AF0014A51F /* Project object */;
+}
